@@ -4,7 +4,7 @@ console.log("Hello, running script.js")
 // Require express library
 // require exword is like import a library
 var express = require('express');
-const PORT = 3000;
+var PORT = process.env.PORT || 3000;
 const path = require('path');
 //module quiz_started_routes
 var inprogress = require('./quiz_started_routes');
