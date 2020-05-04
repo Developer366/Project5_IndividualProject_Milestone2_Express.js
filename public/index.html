@@ -26,6 +26,11 @@
 <!--Start of Submit Form DIV-------------------------------------------------------------------------------------------------------------------------->
 	<div class="row">
 		<div class="container-fluid">
+			{{#each list}}
+			<h1>{{this.quizid}}<h1>
+			<h1>{{this.title}}</h1>
+			<h1>{{this.description}}</h1>
+			{{/each}}
 			<p id="Header">Please enter your Name and select which Quiz you want to take:</p>
 			<p id="Timer" class="hidden">--------------- Elapsed Time: <label id="minutes">00</label><label>:</label><label id="seconds">00</label> ---------------</p>
 			<p id="score"></p>
