@@ -29,7 +29,9 @@ app.listen(PORT, function() {
 
 // HomePage -- TEST ROUTE -- Prints quiz HTML WEBSITE
 app.get('/', function(req, res){	
-	res.redirect('/api/quiz/list');
+	res.sendFile(path.join(__dirname, 'Project4_IndividualProject_Quiz', 'index.html'));
+	
+	//res.redirect('/api/quiz/list');
 	//res.render('')
 });
 
