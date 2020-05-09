@@ -1,0 +1,26 @@
+{
+  "name": "project5_individualproject_milestone2",
+  "version": "1.0.0",
+  "description": "node js project",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developer366/Project5_IndividualProject_Milestone2.git"
+  },
+  "author": "Kamil Peza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developer366/Project5_IndividualProject_Milestone2/issues"
+  },
+  "homepage": "https://github.com/Developer366/Project5_IndividualProject_Milestone2#readme",
+  "scripts":{
+	"start": "node server.js"
+  }
+}

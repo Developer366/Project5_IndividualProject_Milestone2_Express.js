@@ -29,8 +29,8 @@ app.listen(PORT, function() {
 
 // HomePage -- TEST ROUTE -- Prints quiz HTML WEBSITE
 app.get('/', function(req, res){	
-	res.sendFile(path.join(__dirname, 'Project4_IndividualProject_Quiz', 'index.html'));
-	
+	//res.sendFile(path.join(__dirname, 'Project4_IndividualProject_Quiz', 'index.html'));
+	res.send("Welcome to Kamil Peza's website/app on Heroku!");
 	//res.redirect('/api/quiz/list');
 	//res.render('')
 });
