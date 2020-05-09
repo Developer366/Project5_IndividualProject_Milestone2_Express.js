@@ -238,7 +238,7 @@ const quiz_data = {
 				"user_answer" : "1",
 				"correct" : false,
 				"explanation": "It loops from the middle to the end doubling each value. Since there are 6 elements it will start at index 3.",
-				"message":"Nice Job!"
+				"message":"Nice Job!",
 				"meta": {
 					"next_question": 18
 				}
