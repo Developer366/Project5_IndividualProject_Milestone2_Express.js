@@ -2,11 +2,11 @@
 
 const quiz_data = {		
 	list : [
-		{
-			"quizid" : "1",
-			"title" : "Java Quiz",
-			"description" : "Quiz with 20 questions on java structure and code",
-			data : [
+	{
+		"quizid" : "1",
+		"title" : "Java Quiz",
+		"description" : "Quiz with 20 questions on java structure and code",
+		data : [
 			{
 				"questionId": 1,
 				"questiontype": "MC",
@@ -284,16 +284,13 @@ const quiz_data = {
 					"next_question": -1
 				}
 			}
-		],			
-		},
-	],	
-},
-		
-		{
-			"quizid": "2",
-			"title": "HTML and CSS Quiz",
-			"description": "Quiz with 21 questions on html and css code and structure",
-			data : [
+		]			
+	},				
+	{
+		"quizid": "2",
+		"title": "HTML and CSS Quiz",
+		"description": "Quiz with 21 questions on html and css code and structure",
+		data : [
 			{
 				"questionId": 1,
 				"questiontype": "MC",
@@ -588,11 +585,8 @@ const quiz_data = {
 					"next_question": -1
 				}
 			}
-			
-			}
-			]		
-		}
-		]  
+		]			
+	} 
 }
 
 module.exports.quiz_data = quiz_data;
