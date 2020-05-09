@@ -269,7 +269,7 @@ const quiz_data = {
 				"message":"Awesome!",
 				"meta": {
 					"next_question": 20
-				},
+				}
 			},
 			{
 				"questionId": 20,
