@@ -254,7 +254,7 @@ const quiz_data = {
 				"correct" : false,
 				"explanation": "76 is greater than or equal to 70 and below 80.",
 				"message":"Nice Job!",
-				"meta": {
+				meta: {
 					"next_question": 19
 				}
 			},
