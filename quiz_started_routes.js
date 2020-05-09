@@ -39,7 +39,6 @@ router.get('/api/quiz/:quizid/:questionid', (req, res) =>{
 	delete question_with_specific_id[0].message;
 	//delete question_with_specific_id[0].meta;
 
-	
 	res.json(question_with_specific_id)
 });
 

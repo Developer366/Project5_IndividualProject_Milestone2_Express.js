@@ -1,4 +1,4 @@
-//filename : script.js
+//filename : server.js
 console.log("Hello, running script.js")
 
 // Require express library
@@ -74,19 +74,6 @@ app.use((req,res)=> {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  Old code
 
 	//var list_info = quiz_info.filter(i => i.Array.isArray(quiz_info) == false);
@@ -113,14 +100,6 @@ app.get('/api/quiz', (req, res) =>{
 	}
 	res.json(quiz)
 });
-
-
-
-
-
-
-
-
 
 
 */
