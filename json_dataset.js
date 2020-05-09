@@ -254,7 +254,7 @@ const quiz_data = {
 				"correct" : false,
 				"explanation": "76 is greater than or equal to 70 and below 80.",
 				"message":"Nice Job!",
-				meta: {
+				"meta": {
 					"next_question": 19
 				}
 			},
@@ -279,7 +279,7 @@ const quiz_data = {
 				"user_answer" : "1",
 				"correct" : false,
 				"explanation": "A constructor is a special type of subroutine called to create an object.",
-				"message":"Good!"
+				"message":"Good!",
 				"meta": {
 					"next_question": -1
 				}
