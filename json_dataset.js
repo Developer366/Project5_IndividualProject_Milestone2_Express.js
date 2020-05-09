@@ -1,5 +1,3 @@
-//filename : json_dataset.js
-
 const quiz_data = {		
 	list : [
 	{
@@ -287,7 +285,7 @@ const quiz_data = {
 		]			
 	},				
 	{
-		"quizid": "2",
+		"quizid": 2,
 		"title": "HTML and CSS Quiz",
 		"description": "Quiz with 21 questions on html and css code and structure",
 		data : [
@@ -587,6 +585,7 @@ const quiz_data = {
 			}
 		]			
 	} 
+	]
 }
 
 module.exports.quiz_data = quiz_data;
