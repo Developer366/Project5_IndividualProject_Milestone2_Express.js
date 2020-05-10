@@ -50,6 +50,7 @@ router.get('/api/check_answer/:quizid/:questionid/:answer', (req, res) =>{
 	var answer = req.params['answer'];
 	
 	var quiz_with_specific_id = quiz_data["list"].filter(q => q.quizid == q_id); 
+	console.log(quiz_with_specific_id)
 	var question_with_specific_id = quiz_with_specific_id[0].data.filter(q => q.questionId == quest_id);
 	question_with_specific_id[0].user_answer = answer;  
 	

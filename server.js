@@ -11,7 +11,7 @@ var inprogress = require('./quiz_started_routes');
 
 
 var app = express()
-app.use('/inprogress', inprogress);
+app.use('/inprogress', inprogress)
 
 // Require the module that defines the JSON object
 const dataset = require('./json_dataset');
